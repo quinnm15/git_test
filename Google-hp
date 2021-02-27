@@ -1,0 +1,176 @@
+<style>
+nav {font-family: Arial;
+  font-size: 14px;
+  color: black;
+  opacity: 1;
+  margin-top: 20px;
+}
+.box {
+  height: 30px;
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 6px;
+}
+.container {display: flex;
+
+}
+.box-1 {flex-shrink: }
+.box-2 {}
+.box-3 {flex-grow: 90;
+color: white;}
+.box-4 {}
+.box-5 {}
+.box-6 {margin-right: -2px;}
+.box-7 {margin-top: 0px;}
+main {text-align: center;
+margin-top: 20px}
+img {}
+.bento-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 5px);
+  grid-template-rows: repeat(3, 5px);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  height : 20px;
+  width : 20px;
+  color: black;
+  opacity: 1;
+}
+
+.bento-dot {
+  width : 5px;
+  height: 5px;
+  border-radius: 700px;
+  background:#5f6368;
+  overflow: hidden;
+}
+#sign-in {font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  color: white;
+background: #1a73e8;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: .25px;
+line-height: 16px;
+margin-left: 0px;
+margin-right: 0px;
+min-width: 96px;
+padding: 9px;
+text-align: center;
+border-radius: 4px;
+box-sizing: border-box;
+  width: 80px;
+  height: 40px;
+  border: none;
+ 
+}
+.mag {height: 14px;
+width: 14px;
+margin-right: 0px;}
+.search-bar {width: 584px;
+height: 40px;
+border-radius: 30px;
+  margin-top: 30px;
+  border-style: solid;
+}
+input[type=text] {text-align: start;
+padding-left: 10px;}
+.under-search {margin-top: 25px}
+#lucky { 
+  background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+  user-select: none;
+  border-height: 10px;
+}
+.footer {
+  display: flex;
+  font-style: Arial;
+  font-size: 14px;
+  background: #f8f9fa;
+  margin-bottom: -10px;
+  margin-left: -7px;
+  margin-right: 0px;
+  flex-wrap: wrap;
+  position: static;
+  float: none;
+  line-height: 45px;
+  color: #70757a;
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  flex-align: bottom;
+}
+.foot {margin-left: 20px;
+  margin-right: 20px;}
+.foot1 { margin: }
+.foot2 {}
+.foot3 {}
+.foot4 {flex-grow: 2;
+margin-left: -80px;}
+.foot5 {}
+.foot6 {}
+.foot7 {}
+.space { box-sizing: border-box;
+height: 285px;}
+a.ex:hover, a.ex:active {text-decoration: underline;}
+a.ex2:hover {
+  box-shadow: 0 15px 0 rgba(0,0,0,.15);
+ }
+a.lb:hover {border: 1px solid;
+}
+
+</style>
+<!DOCTYPEhtml>
+<nav>
+  <section class= "container">
+    <div class= "box box-1"><a class= "ex">About</a></div>
+    <div class= "box box-2"><a class= "ex">Store</a></div>
+    <div class= "box box-3">"*"</div>
+    <div class= "box box-4"><a class= "ex">Gmail</a></div>
+    <div class= "box box-5"><a class= "ex">Images</a></div>
+    <div class= "box box-6"><a class="bento-menu">
+      <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+  <div class="bento-dot"></div>
+</a></div>
+    <div class= "box box-7"><a class= "ex2"><button id= "sign-in">Sign In</button></a></div></section>
+    </nav>
+<main>
+  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+<div class= "search">
+<form>
+  <a class= "ex-bar">
+    <input type= "text" class= "search-bar" value= "&#128269"></a>
+  </div>
+  <div class= "under-search">
+   <a class= "lb"><button id= "lucky">Google Search</button></a>
+   <a class= "lb"><button id= "lucky">Im Feeling Lucky</button></a>
+      </div></form>
+  
+    <div class= "space"></div>
+    
+  <footer>
+      <div class= "footer">
+        <div class= "foot foot1"><a class= "ex">Advertising</a></div>
+        <div class= "foot foot2"><a class= "ex">Business</a></div>
+        <div class= "foot foot3"><a class= "ex">How Search Works</a></div>
+        <div class= "foot foot4"><a class= "ex">&#127811Carbon neutral since 2007</a></div>
+        <div class= "foot foot5"><a class= "ex">Privacy</a></div>
+        <div class= "foot foot6"><a class= "ex">Terms</a></div>
+          <div class= "foot foot7"><a class= "ex">Settings</a></div>
+      </div>
